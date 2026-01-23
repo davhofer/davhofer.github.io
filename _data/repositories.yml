@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - davhofer
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - davhofer/botsky
+  - eth-cscs/py2spack
+  - davhofer/wordler
+  - davhofer/arxiv-scanner
