@@ -20,6 +20,21 @@
 }
 
 
+@misc{hofer2026assessing,
+    title={Assessing Automated Prompt Injection Attacks in Agentic Environments},
+    author={Hofer, David and Debenedetti, Edoardo and Tram{\`e}r, Florian},
+    year={2026},
+    month={06},
+    eprint={2606.10525},
+    archivePrefix={arXiv},
+    primaryClass={cs.CR},
+    abstract={Indirect prompt injection poses a critical threat to LLM agents that interact with untrusted external data, yet automated attack methods--proven effective for jailbreaking--remain underexplored in realistic agentic settings. We present a comprehensive empirical evaluation of automated prompt injection attacks against LLM agents, adapting both white-box (GCG) and black-box (TAP) methods to the agentic setting within the AgentDojo framework. We evaluate across 80 task pairs spanning four domains and multiple models, and find that black-box optimization substantially outperforms gradient-based methods, a gap we attribute to GCG's optimization instability under reasonable compute budgets. We also find that TAP's effectiveness depends on the attacker model, as both general capability and safety tuning affect attack success--stronger models produce more effective injections, while safety-tuned attackers can refuse to generate adversarial prompts. Task-universal attacks transfer effectively to unseen tasks and out-of-distribution domains, but attacks optimized on smaller open-source models do not transfer to frontier models like GPT-5. These findings highlight automated prompt injection as a credible but model-dependent threat, with significant barriers remaining for model-agnostic exploitation.},
+    bibtex_show={true},
+    selected={true},
+    arxiv={2606.10525},
+    pdf={https://arxiv.org/pdf/2606.10525}
+}
+
 @mastersthesis{hofer2024automated,
     title={Automated Prompt Injection Attacks Against LLM Agents},
     author={Hofer, David},

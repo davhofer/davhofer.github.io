@@ -27,6 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a MSc student from ETH Zürich interested in machine learning, security, and privacy.
+I'm a research engineer at Snyk, working on AI security, measuring and mitigating the risks of LLMs and AI agents.
 
-`tbd`
+Previously: MSc in Computer Science (focus Cyber Security) at ETH Zürich and EPFL.
