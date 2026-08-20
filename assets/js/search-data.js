@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "news-graduated-with-a-bsc-in-computer-science-from-eth-zurich",
+        },{id: "post-how-we-evaluate-model-risk",
+        
+          title: 'How We Evaluate Model Risk <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "A framework for measuring the security risk of LLMs by evaluating them as agents against adaptive attackers. Published on the Snyk Labs research blog.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://research.snyk.io/blog/model-risk/", "_blank");
+          
+        },
+      },{id: "news-graduated-with-a-bsc-in-computer-science-from-eth-zurich",
           title: 'Graduated with a BSc in Computer Science from ETH Zurich',
           description: "",
           section: "News",},{id: "news-published-my-first-paper-a-neural-model-for-regular-grammar-induction-at-icmla-2022",
@@ -48,6 +59,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-starting-a-new-position-at-invariant-labs-snyk-working-on-ai-security",
           title: 'Starting a new position at Invariant Labs/Snyk, working on AI security',
+          description: "",
+          section: "News",},{id: "news-new-preprint-assessing-automated-prompt-injection-attacks-in-agentic-environments",
+          title: 'New preprint: Assessing Automated Prompt Injection Attacks in Agentic Environments',
+          description: "",
+          section: "News",},{id: "news-new-blog-post-on-the-snyk-labs-research-blog-how-we-evaluate-model-risk",
+          title: 'New blog post on the Snyk Labs research blog: How We Evaluate Model...',
           description: "",
           section: "News",},{
         id: 'social-email',
