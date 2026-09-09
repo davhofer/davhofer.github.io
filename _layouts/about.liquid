@@ -64,6 +64,13 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Teaching -->
+    {% if page.teaching %}
+      <h2>teaching</h2>
+      <p>ETH Zürich, Department of Computer Science</p>
+      {% include teaching.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
