@@ -38,6 +38,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-blog-post-on-the-snyk-labs-research-blog-how-we-evaluate-model-risk",
           title: 'New blog post on the Snyk Labs research blog: How We Evaluate Model...',
           description: "",
+          section: "News",},{id: "news-new-preprint-beyond-predictable-paths-redefining-ai-security-incident-reporting-for-agents",
+          title: 'New preprint: Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
